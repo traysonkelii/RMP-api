@@ -32,8 +32,8 @@ npm start
 ## Usage
 
 Once the project is properly installed go to localhost:3000 in your web browser
-There are 5 basic endpoints that can be used (feel free to add or modify more if you please)
--First you would want to search for a school code using "/api/school/{name}" endpoint
+There are 5 basic endpoints that can be used (feel free to add or modify more if you please).
+First off, you would want to search for a school code using "/api/school/{name}" endpoint
 that returns a list of school info. Wherever you see schoolId you would use the school pk_id
 ```JSON
 {
@@ -44,7 +44,7 @@ that returns a list of school info. Wherever you see schoolId you would use the 
     "schoolstate_s": "UT"
   }
   ```
-  -Next with the schoolId you can do the same thing for a professor using the 
+  Next with the schoolId you can do the same thing for a professor using the 
   /api/professor/{schoolId}/{name} endpoint (here the name of the professor 
   can be by first or last name or both). But the same rules apply wherever you see 
   professorId you use the pk_id
@@ -63,7 +63,6 @@ that returns a list of school info. Wherever you see schoolId you would use the 
   I currently have the code retrieving the first 20 entries from comments left by students
   feel free to dig around the code and create your own endpoints.
 
-Feel free to remove any sections that aren't applicable to your project.
 
 ## Support
 
