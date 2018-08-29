@@ -68,7 +68,9 @@ that returns a list of school info. Wherever you see schoolId you would use the 
 
 Please [open an issue](https://github.com/traysonkelii/RMP-api/issues/new) for support or questions.
 The api is built off of the Hapi Framework and the majority of the node modules are plugins to support that framework 
-a more detailed description of instructions can be found at their site [Here](https://hapijs.com/). 
+a more detailed description of instructions can be found at their site [here](https://hapijs.com/). The UI for testing and 
+demo is based off the hapi-swagger node moduel found [here](https://github.com/glennjones/hapi-swagger)
+
 
 ## Contributing
 
